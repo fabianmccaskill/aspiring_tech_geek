@@ -1,0 +1,119 @@
+Start by adding the sample web log data to Kibana.
+
+
+You can import it by clicking Try our sample data.
+
+
+Or you can import it from the homepage by clicking on Load a data set and a Kibana dashboard under Add sample data.
+
+
+Click Add Data under the Sample Web Logs data pane.
+
+
+Click View Data to pull up the dashboard.
+
+
+Answer the following questions:
+
+
+In the last 7 days, how many unique visitors were located in India?
+Answer: 251
+
+
+In the last 24 hours, of the visitors from China, how many were using Mac OSX?
+Answer: 8
+
+
+In the last 2 days, what percentage of visitors received 404 errors? How about 503 errors?
+Answer: 404: 100% and 503: 100%
+
+
+In the last 7 days, what country produced the majority of the traffic on the website?
+Answer: China
+
+
+Of the traffic that's coming from that country, what time of day had the highest amount of activity?
+Answer: 12 p.m.
+
+
+List all the types of downloaded files that have been identified for the last 7 days, along with a short description of each file type (use Google if you aren't sure about a particular file type).
+
+
+Answer:
+gz: .gz files are compressed files created using the gzip compression utility.
+
+css: .css files can help define font, size, color, spacing, border and location of HTML information on a webpage. They are downloaded with their .html counterparts and rendered by the browser.
+
+zip: A lossless compression format. A .zip file may contain one or more files or directories that have been compressed.
+
+deb: A file with the .deb file extension is a Debian (Linux) Software Package file. These files are installed when using the apt package manager.
+
+rpm: .rpm file formats are a Red Hat Software Package file. RPM stands for Red Hat Package Manager.
+
+
+Look at the chart that shows Unique Visitors Vs. Average Bytes.
+
+
+Locate the time frame in the last 7 days with the most amount of bytes (activity).
+
+
+In your own words, is there anything that seems potentially strange about this activity?
+Answer: A single user used over 16,000 bytes 
+
+
+Filter the data by this event.
+
+
+What is the timestamp for this event?
+Answer: Mar 25, 2021 @ 15:55.
+
+
+What kind of file was downloaded?
+Answer: gz
+
+
+From what country did this activity originate?
+Answer: China
+
+
+What HTTP response codes were encountered by this visitor?
+Answer: 200 OK
+
+
+Switch over to the Kibana Discover page to see more details about this activity.
+
+
+What is the source IP address of this activity?
+Answer: 1.145.31.121
+
+
+What are the geo coordinates of this activity?
+Answer: { "lat": 28.28980556, "lon": -81.43708333 }
+
+
+What OS was the source machine running?
+Answer: win 8
+
+
+What is the full URL that was accessed?
+Answer:https://artifacts.elastic.co/downloads/kibana/kibana-6.3.2-linux-x86_64.tar.gz
+
+
+From what website did the visitor's traffic originate?
+Answer: elastic.com
+
+
+Finish your investigation with a short overview of your insights.
+
+
+What do you think the user was doing?
+Answer: User downloaded tar.gz file from kibana for use on linux 
+
+
+Was the file they downloaded malicious? If not, what is the file used for?
+No. The file was likely a compressed data archive.
+
+
+Was there anything that seems suspicious about this activity?
+Is any of the traffic you inspected potentially outside of compliance guidelines?
+Answer: No, the user was referred to the kibana download from elastic.co, which is normal.
